@@ -1,0 +1,25 @@
+runmode: debug 
+addr: :3000 
+name: goWeb 
+url: http://127.0.0.1:3000 
+max_ping_count: 10 
+gormlog: true
+log:
+  writers: file,stdout
+  logger_level: DEBUG
+  logger_file: log/goweb.log
+  log_format_text: false
+  rollingPolicy: size
+  log_rotate_date: 1
+  log_rotate_size: 1
+  log_backup_count: 7
+db:
+  username: root
+  password: test
+  addr: 127.0.0.1:3306
+  name: db_goweb
+docker_db:
+  username: root
+  password: test
+  addr: 127.0.0.1:3306
+  name: db_goweb

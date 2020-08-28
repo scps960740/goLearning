@@ -1,0 +1,4 @@
+{"level":"INFO","timestamp":"2020-08-24 18:34:10.754","file":"goWeb/index.go:44","msg":"Start to listening the incoming requests on http address: :3000"}
+{"level":"INFO","timestamp":"2020-08-24 18:34:10.755","file":"goWeb/index.go:41","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-08-24 18:41:38.699","file":"goWeb/index.go:48","msg":"Start to listening the incoming requests on http address: :3000"}
+{"level":"INFO","timestamp":"2020-08-24 18:41:38.802","file":"goWeb/index.go:45","msg":"The router has been deployed successfully."}
