@@ -5,6 +5,7 @@ import (
 
 	"example.com/user/goWeb/router/middleware"
 	"example.com/user/goWeb/handler/sd"
+	"example.com/user/goWeb/handler/user"
 	"github.com/gin-gonic/gin"
 )
 
@@ -22,6 +23,11 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 	g.GET("/", func(c *gin.Context) {
 		c.String(http.StatusOK, "hello world go")
 	})
+
+	u := g.Group("/v1/user")
+	{
+		u.POST("", user.Create)
+	}
 
 	svcd := g.Group("/sd")
 	{

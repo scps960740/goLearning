@@ -2,3 +2,14 @@
 {"level":"INFO","timestamp":"2020-08-24 18:34:10.755","file":"goWeb/index.go:41","msg":"The router has been deployed successfully."}
 {"level":"INFO","timestamp":"2020-08-24 18:41:38.699","file":"goWeb/index.go:48","msg":"Start to listening the incoming requests on http address: :3000"}
 {"level":"INFO","timestamp":"2020-08-24 18:41:38.802","file":"goWeb/index.go:45","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-08-28 14:44:45.787","file":"goWeb/index.go:48","msg":"Start to listening the incoming requests on http address: :3000"}
+{"level":"INFO","timestamp":"2020-08-28 14:44:45.788","file":"goWeb/index.go:58","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-08-28 14:44:46.789","file":"goWeb/index.go:45","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-08-28 14:52:32.225","file":"config/index.go:37","msg":"Config file changed: /Users/Bruce/Documents/BruceLearning/goLearning/goWeb/conf/config.yaml"}
+{"level":"INFO","timestamp":"2020-08-28 14:52:34.123","file":"goWeb/index.go:48","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-08-28 14:52:34.225","file":"goWeb/index.go:45","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2020-08-28 14:56:09.377","file":"user/user.go:26","msg":"username is: [admin], password is []"}
+{"level":"DEBUG","timestamp":"2020-08-28 14:56:17.151","file":"user/user.go:26","msg":"username is: [], password is [admin]"}
+{"level":"ERROR","timestamp":"2020-08-28 14:56:17.151","file":"user/user.go:29","msg":"Get an error","data":{"error":"Err - code: 20102, message: The user was not found. This is add message., error: username can not found in db: xx.xx.xx.xx"}}
+{"level":"DEBUG","timestamp":"2020-08-28 14:56:17.151","file":"user/user.go:33","msg":"err type is ErrUserNotFound"}
+{"level":"DEBUG","timestamp":"2020-08-28 14:59:58.890","file":"user/user.go:26","msg":"username is: [admin], password is [admin]"}
